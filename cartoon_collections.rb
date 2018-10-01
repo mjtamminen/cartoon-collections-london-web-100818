@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map do |call|
+  planeteer_calls.map {dwarf} do |call|
     call.capitalize
     puts 
   end
