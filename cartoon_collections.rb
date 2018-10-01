@@ -13,6 +13,8 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(array)
+  cheeses = %w(gouda cheddar camembert)
+  
   array.find do |item|
     item == cheddar || gouda || camembert
   end
