@@ -14,7 +14,6 @@ end
 
 def find_the_cheese(array)
   cheeses = %w(gouda cheddar camembert)
-  
   array.find do |item|
     cheeses.include?(item)
   end
